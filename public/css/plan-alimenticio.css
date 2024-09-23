@@ -1,0 +1,28 @@
+.table {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table th {
+    background-color: #18222B;
+    color: #fff;
+    font-weight: bold;
+}
+
+.table td {
+    background-color: #f9f9f9;
+}
+
+h2 {
+    color: #DA3434;
+}
+
+.container {
+    max-width: 900px;
+}

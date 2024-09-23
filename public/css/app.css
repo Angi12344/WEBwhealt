@@ -1,0 +1,221 @@
+.main-menu {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    color: white;
+}
+
+.sidebar .logo {
+    padding: 20px;
+    text-align: center;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar nav ul li {
+    margin: 20px 0;
+}
+
+.sidebar nav ul li a {
+    color: #DA3434;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 10px 20px;
+}
+
+.sidebar nav ul li a:hover {
+    background-color: #DA3434;
+    color: white;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.profile-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #18222B;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.profile-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #DA3434;
+}
+
+.profile-details .profile-field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.profile-details label {
+    width: 150px;
+    font-weight: bold;
+    color: #18222B;
+}
+
+.profile-details input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.edit-btn {
+    background-color: #DA3434;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-btn i {
+    margin-right: 5px;
+}
+
+.save-btn {
+    background-color: #18222B;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.save-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.paciente-card {
+    border: 1px solid #18222B;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.paciente-card:hover {
+    transform: translateY(-5px);
+}
+
+.paciente-card img {
+    border: 2px solid #DA3434;
+}
+
+.cita-card {
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.cita-card:hover {
+    transform: translateY(-5px);
+}
+
+.badge-warning {
+    background-color: #DA3434;
+    color: #fff;
+    font-size: 0.9rem;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+}
+
+.calendar {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+}
+
+.week-label {
+    font-weight: bold;
+    padding: 10px;
+}
+
+.days-of-week {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.day-header {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    background-color: #18222B;
+    color: white;
+    font-weight: bold;
+}
+
+.calendar-body {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.day-column {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.meal-block {
+    background-color: #DA3434;
+    color: white;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.meal-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
